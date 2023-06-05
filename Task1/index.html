@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Frosty Bites</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css?_cacheOverride=1685884898881" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <div>
+                    <img src="logo.png">
+                </div>
+				<h3>Frosty Bites...</h3>
+            </div>
+            <div class="menu">
+                <a href="#">Home </a>
+                <a href="#">Product </a>
+                <a href="#">Service</a>
+                <a href="#">Contact Us </a>
+                <a href="#">About </a>
+            </div>
+        </nav>
+        <div class="container">
+            <div class="left">
+                <h1>Discover Joy in Every Scoop ....</h1>
+                <h3>Treat yourself to the best ice cream in town.</h3>
+                <button>Taste now</button>
+            </div>
+            
+            <div class="right">
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"><img src="icecream.png" alt=""></div>                            
+                        <div class="swiper-slide"><img src="icecream2.png" alt=""></div>    
+                        <div class="swiper-slide"><img src="icecream3.png" alt=""></div>        
+                        <div class="swiper-slide"><img src="icecream4.png" alt=""></div>        
+                    </div> 
+                </div>
+                
+            </div>
+        </div>
+        <div class="social-links">
+			<i class="fab fa-facebook-f"></i>
+			<i class="fab fa-instagram"></i>
+			<i class="fab fa-twitter"></i>
+			<i class="far fa-envelope"></i>
+		</div>
+        </div>
+    </header>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+          slidesPerView: 1,
+          spaceBetween: 30,
+          loop: true,
+        });
+      </script>
+</body>
+</html>
